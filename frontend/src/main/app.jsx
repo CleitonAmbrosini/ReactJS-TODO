@@ -6,6 +6,9 @@ import React from 'react'
 import Routes from './routes'
 import Menu from '../tamplete/menu'
 
+// css
+import '../tamplete/custom.css'
+
 export default props => (
   <div className="container">
     <Menu />
