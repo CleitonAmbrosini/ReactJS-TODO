@@ -2,6 +2,7 @@ import React from 'react'
 
 // components
 import Grid from '../tamplete/grid'
+import IconButton from '../tamplete/iconButton'
 
 export default props => (
   <div role="form" className="todoForm">
@@ -11,9 +12,7 @@ export default props => (
     </Grid>
 
     <Grid cols="12 3 2">
-      <button className="btn btn-primary">
-        <i className="fa fa-plus"></i>
-      </button>
+      <IconButton style="primary" icon="plus"></IconButton>
     </Grid>
   </div>
 )
